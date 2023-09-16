@@ -7,6 +7,7 @@ import Professional_Skill_Items from "@/components/Professional_Skill_Items";
 import Contact_Items from "@/components/Contact_Items";
 import Project_Items from "@/components/Project_Items";
 import Certification_Items from "@/components/Certification_Items";
+import Experience_Items from "@/components/Experience_Items";
 
 const Home = () => {
   return (
@@ -36,6 +37,9 @@ const Home = () => {
           <About />
           <Contact_Items />
         </div>
+
+        <Heading name={"Experience"} />
+        <Experience_Items />
 
         <Heading name={"Projects"} />
         <Project_Items />
