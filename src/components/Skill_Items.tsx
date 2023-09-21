@@ -8,9 +8,10 @@ const Skill_Items = () => {
       <Skill_Item name={"Bootstrap"} />
       <Skill_Item name={"JavaScript"} />
       <Skill_Item name={"TypeScript"} />
-      <Skill_Item name={"Jquery"} />
       <Skill_Item name={"React.js"} />
       <Skill_Item name={"Next.js"} />
+      <Skill_Item name={"Tailwind CSS"} />
+      <Skill_Item name={"Headless CMS"} />
       <Skill_Item name={"PHP"} />
       <Skill_Item name={"SQL"} />
     </div>
