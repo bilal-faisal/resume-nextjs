@@ -4,31 +4,22 @@ const Experience_Items = () => {
   return (
     <div className="flex flex-col py-4 flex-wrap">
       <Experience_Item
-        title={"Junior Web Developer"}
+        title={"Frontend Web Developer Intern"}
         company={"Panacloud"}
-        type={"Part-time"}
-        start_date={"July 2023"}
-        end_date={"Present"}
+        start_date={"Oct 2023"}
+        end_date={"Jan 2024"}
         desc_points={[
           {
             emoji: "🔍",
-            desc: "As a Junior Web Developer at Panacloud, I collaborate with a dynamic team to create and refine high-quality templates for various platforms.",
-          },
-          {
-            emoji: "💡",
-            desc: "Currently, we're deeply involved in the design and development of a premium Shopify storefront template.",
+            desc: "Collaborated with a dynamic team to conceptualize, develop and refine a high-quality template.",
           },
           {
             emoji: "🛠",
-            desc: "Using cutting-edge technologies, we ensure all our templates meet the highest standards of modern web development.",
-          },
-          {
-            emoji: "🔄",
-            desc: " With every template completion, we eagerly transition to the next, showcasing our continuous drive to evolve, innovate, and maintain excellence.",
+            desc: "Using cutting-edge technologies, ensuring our template met standards of modern web development.",
           },
           {
             emoji: "⏳",
-            desc: "Engage in a flexible work environment, adapting to diverse projects and challenges.",
+            desc: "Actively participated in a flexible work environment, adapting to diverse projects and challenges.",
           },
         ]}
       />

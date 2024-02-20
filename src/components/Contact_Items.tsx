@@ -11,8 +11,8 @@ const Contact_Items = () => {
         />
         <Contact_Item
           img={"location.png"}
-          url={"https://goo.gl/maps/3wFQA9A3G9eYqrAYA"}
-          text={"Block H1, Johar Town, Lahore"}
+          url={"https://maps.app.goo.gl/Ca5gVFRCDnY62M3s5"}
+          text={"Block Q, Johar Town, Lahore"}
         />
         <Contact_Item
           img={"mail.png"}
