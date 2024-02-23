@@ -1,26 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 interface Image {
-  img: String;
-  url: String;
-  text: String;
+  ReactIcon: typeof FaExternalLinkAlt;
+  url: string;
+  text: string;
 }
-const Contact_Item = ({ img, url, text }: Image) => {
+
+const Contact_Item = ({ ReactIcon, url, text }: Image) => {
   return (
-    <div className="flex my-1 items-start">
-      <Image
-        src={`/${img}`}
-        height={25}
-        width={25}
-        alt="icon"
-        className="rounded-md"
-      />
-      <p className="px-3">
-        <Link href={`${url}`} target={"_blank"}>
-          {text}
-        </Link>
-      </p>
-    </div>
+    <Link href={`${url}`} target={"_blank"}>
+      <div className="flex my-1 items-center ">
+        <ReactIcon color="#f47a7a" size="20px"/>
+        <p className="px-3">{text}</p>
+      </div>
+    </Link>
   );
 };
 
