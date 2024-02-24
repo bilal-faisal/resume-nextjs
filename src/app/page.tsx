@@ -8,6 +8,7 @@ import Contact_Items from "@/components/Contact_Items";
 import Project_Items from "@/components/Project_Items";
 import Certification_Items from "@/components/Certification_Items";
 import Experience_Items from "@/components/Experience_Items";
+import Languages from "@/components/Languages";
 
 const Home = () => {
   return (
@@ -22,14 +23,17 @@ const Home = () => {
           <Contact_Items />
         </div>
 
-        <Heading name={"Skills"} />
+        <Heading name={"Technical Skills"} />
         <Skill_Items />
 
         <Heading name={"Professional Skills"} />
         <Professional_Skill_Items />
 
-        <Heading name={"Qualifications"} />
+        <Heading name={"Education"} />
         <Qual_Items />
+
+        <Heading name={"Languages"} />
+        <Languages />
         
       </div>
       <div className="flex flex-col flex-wrap lg:px-10 px-5 lg:my-10 my-0 bg-white lg:w-2/3 lg:border-l-2 lg:border-[#34678C]">

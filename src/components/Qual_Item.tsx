@@ -1,7 +1,7 @@
 interface Skill {
   name: String;
-  area: String;
-  time: String;
+  area?: String;
+  time?: String;
 }
 
 const Qual_Item = ({ name, area, time }: Skill) => {

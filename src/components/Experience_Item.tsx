@@ -26,10 +26,10 @@ const Experience_Item = ({
       <p className="text-md text-gray-800">
         {start_date} – {end_date}
       </p>
-      <ul className="max-w-[90%] py-2">
+      <ul className="pt-2">
         {desc_points.map((point, i) => {
           return (
-            <li className="list-none flex" key={i}>
+            <li className="list-none flex leading-7" key={i}>
               <p className="min-w-[3rem] text-center">{point.emoji}</p>
               <p className="text-gray-800">{point.desc}</p>
             </li>

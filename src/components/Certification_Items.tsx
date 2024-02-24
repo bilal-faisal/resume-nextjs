@@ -4,21 +4,23 @@ const Certification_Items = () => {
   return (
     <div className="flex flex-col py-4 flex-wrap">
       <Certification_Item
-        name={"Web 3.0 and Metaverse Development"}
+        name={"Certified Cloud Applied Generative AI Engineer"}
         subname={"(In Progress)"}
-        desc={"1 year training program from Panaverse, PIAIC Lahore"}
+        desc={
+          "Currently pursuing a 1.5-year certification program from PIAIC, Lahore"
+        }
         content={
-          "Javascript, TypeScript, Next.js 13, Tailwind CSS, Figma, API Routes, GraphQL, Figma, Serverless Cloud Apps, Blockchain, Web 3.0 Dapps, Solidity, Blender"
+          "TypeScript, React.js, Next.js, Tailwind CSS, Figma, Headless CMS, PostgreSQL, Drizzle ORM, REST APIs, GraphQL, OpenAI, Langchain, Pinecone"
         }
       />
       <Certification_Item
         name={"Advance Web Application Development"}
-        desc={"6 months training program from KICS, UET Lahore"}
+        desc={"Completed a 6-month training program from KICS UET, Lahore"}
         content={"HTML, CSS, Bootstrap, Javascript, Jquery, PHP, MySQL"}
       />
       <Certification_Item
         name={"Web Design and Development"}
-        desc={"2 months course from PNY Trainings, Lahore"}
+        desc={"Completed a 2-month course from PNY Trainings, Lahore"}
         content={"HTML, CSS, Bootstrap, Wordpress"}
       />
     </div>
